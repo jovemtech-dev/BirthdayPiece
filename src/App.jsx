@@ -3,7 +3,10 @@ import InputDate from './components/input/input';
 import Welcome from './components/welcome/welcome';
 import episodios from './data/episodes_local.json';
 import { useState } from 'react';
+<<<<<<< HEAD
 import './App.css';
+=======
+>>>>>>> dc92a15b903423b711642030132d9a3c22f051a1
 
 function App() {
   const [filtrados, setFiltrados] = useState([]);
