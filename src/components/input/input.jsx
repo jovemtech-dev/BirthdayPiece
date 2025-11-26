@@ -10,7 +10,7 @@ function InputDate({ onBuscar }) {
   console.log(dia, mes)
 
   return (
-    <div className="row mb-4 justify-content-center text-center">
+    <div className="row mb-4 justify-content-center text-center m-5">
       <div className='col-sm-4 col-md-4 mb-2'>
         <select className='form-control text-center' value={dia} onChange={(e) => setDia(e.target.value)}>
           <option value="">Dia</option>
